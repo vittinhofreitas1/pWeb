@@ -1,0 +1,62 @@
+.menu {
+    background-color: #EEE685;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 10px;
+}
+
+a:link {
+    color: #FF1493;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #458B00;
+}
+
+a:hover {
+    background-color: #FF1493;
+    color: #8B4726;
+}
+
+a:active {
+    color: #FF1493;
+}
+
+.container {
+    background-color: #8B4726;
+    padding: 10px;
+    width: 900px;
+    margin: 30px auto;
+}
+
+.caixa {
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+h1 {
+    color: #EEE685;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.data {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.relativo {
+    position: relative;
+    left: 30px;
+}
+
+p{
+    color: white;
+}
+
+footer p{
+    text-decoration: solid;
+    margin: 0px 0px 0px 0px;
+}

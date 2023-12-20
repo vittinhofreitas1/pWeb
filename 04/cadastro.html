@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <scripFt src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
+        </script>
+        <title>Forumulario Cadastro</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card mt-3">
+            <div class="card-header bg-primary text-white">
+                <h1 class="">Formulario de Cadastro</h1>
+            </div>
+            <div class="card-body">
+                <form method="post" action="http://191.52.62.149:8080/pweb/salvar.jsp">
+                    <div class="row justify-content-center">
+                        <div class="col-8 my-2">
+                            <label for="login" class="form-label">Login:</label>
+                            <input type="text" class="form-control" name="login" id="login">
+                        </div>
+                        <div class="col-8 my-3">
+                            <label for="senha" class="form-label">Senha:</label>
+                            <input type="password" class="form-control" name="senha" id="senha">
+                        </div>
+
+                        <div class="col-8 my-3">
+                            <label for="confirmaSenha" class="form-label">Confirme a Senha:</label>
+                            <input type="password" class="form-control" name="confirmaSenha" id="confirmaSenha">
+                        </div>
+                        <div class="col-8 my-3">
+                            <label for="nome" class="form-label">Nome:</label>
+                            <input type="text" class="form-control" name="nome" id="nome">
+                        </div>
+                        <div class="col-8 my-3">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="sexo" id="sexoMasc">
+                                <label class="form-check-label" for="sexoMasc">
+                                    Masculino
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="sexo" id="sexoFem">
+                                <label class="form-check-label" for="sexoFem">
+                                    Feminino
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-8 my-3">
+                            <label for="email" class="form-label">Email:</label>
+                            <input type="email" class="form-control" name="email" id="email">
+                        </div>
+
+                        <div class="col-8 my-3">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="futebol" name="interesse">
+                                <label class="form-check-label">
+                                    Futebol
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="Política" name="interesse">
+                                <label class="form-check-label">
+                                    Política
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="Economia" name="interesse">
+                                <label class="form-check-label">
+                                    Economia
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="Carros" name="interesse">
+                                <label class="form-check-label">
+                                    Carros
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="Celebridades" name="interesse">
+                                <label class="form-check-label">
+                                    Celebridades
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-8 my-2">
+                            <button class="btn btn-primary" type="submit">Enviar</button>
+                        </div>
+                    </div>
+                </form>
+                <a href="./index.html">Volar para login</a>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

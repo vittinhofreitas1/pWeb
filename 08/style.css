@@ -5,7 +5,7 @@ body {
 
 .foto {
     background: white; 
-    width: 30%;        
+    width: 10%;        
     padding: 10px;     
     margin: 1.5%;      
     text-align: center;
@@ -13,11 +13,10 @@ body {
     float: left;
 }
 
-/* Faz a imagem ocupar 100% da largura da sua caixa (.foto) 
 .foto img {
     width: 100%;
 }
-*/
+
 .texto-final {
     clear: both;
     padding: 15px;

@@ -1,5 +1,5 @@
 body {
-    background: #d6d6d6; /* */
+    background: #d6d6d6; 
     font-family: sans-serif;
 }
 
@@ -13,10 +13,11 @@ body {
     float: left;
 }
 
+/* Faz a imagem ocupar 100% da largura da sua caixa (.foto) 
 .foto img {
     width: 100%;
 }
-
+*/
 .texto-final {
     clear: both;
     padding: 15px;

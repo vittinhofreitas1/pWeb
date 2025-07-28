@@ -1,0 +1,99 @@
+#container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: rgb(204, 226, 219);
+}
+
+#postagens {
+    width: 350px;
+    height: auto;
+    background-color: #fff;
+    padding: 10px;
+    float: left;
+}
+
+
+.postagem {
+    padding-bottom: 20px;
+}
+
+.post-foto {
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+.logo-cnn {
+    width: 20px;
+    padding-top: 5px;
+
+}
+
+.logo-1 {
+    width: 50px;
+}
+
+.logo-terra {
+    width: 70px;
+    padding-top: 5px;
+}
+
+.logo-oglobo {
+    width: 20px;
+}
+
+.logo-r7 {
+    width: 29px;
+}
+
+.icon {
+    float: right;
+}
+
+.texto {
+    float: left;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.foto {
+    float: right;
+}
+
+#direita {
+    float: left;
+    width: 350px;
+    background-color: #fff;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+footer {
+    clear: both;
+    color: #979292;
+    margin: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+
+a:link {
+    color: #0000EE;
+}
+
+a:visited {
+    color: #0000EE;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+a {
+    text-decoration: none;
+}

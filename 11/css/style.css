@@ -1,0 +1,165 @@
+/* Reset básico */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo do corpo da página */
+body {
+    font-family: "Montserrat", sans-serif;
+    background: #EDF6F9;
+}
+
+/* Correção de float */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Cabeçalho fixo no topo */
+header#cabecalho {
+    background: #3A506B;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+    font-size: 0.9em;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+/* Destaque no cabeçalho */
+header #destaque {
+    color: #5BC0BE;
+    font-weight: 600;
+}
+
+/* Barra de navegação lateral esquerda */
+nav#navegacao {
+    width: 150px;
+    height: 500px;
+    margin: 20px;
+    padding: 20px;
+    background: #3A506B;
+    float: left;
+    position: fixed;
+    top: 60px;
+}
+
+/* Links do menu de navegação */
+#navegacao a {
+    text-decoration: none;
+    padding-bottom: 10px;
+    color: #fff;
+}
+
+/* Lista de itens do menu */
+#navegacao ul {
+    list-style: none;
+}
+
+#navegacao ul li {
+    margin-bottom: 50px;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    font-size: 1em;
+}
+
+/* Efeito hover nos links */
+#navegacao a:hover {
+    padding: 8px;
+    color: #5BC0BE;
+}
+
+/* Área principal do conteúdo */
+.main {
+    float: left;
+    margin-top: 60px;
+    margin-left: 160px;
+}
+
+/* Área de postagens */
+#area-postagens {
+    width: 800px;
+    float: left;
+    padding-top: 20px;
+}
+
+/* Bloco de postagem */
+.postagem {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #fff;
+}
+
+/* Data da postagem */
+.data {
+    font-size: 0.8em;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+/* Autor da postagem */
+.autor {
+    border-left: 10px solid #ccc;
+    padding-left: 5px;
+    clear: both;
+}
+
+/* Imagem dentro da postagem */
+.postagem img {
+    width: 200px;
+    float: left;
+    margin-right: 10px;
+}
+
+/* Parágrafos do conteúdo */
+p {
+    padding-bottom: 5px;
+    text-align: justify;
+}
+
+/* Títulos */
+h2 {
+    color: #3A506B;
+}
+
+/* Área lateral fixa à direita */
+#area-lateral-direita {
+    float: right;
+    position: fixed;
+    top: 60px;
+    right: 0;
+    width: 300px;
+    height: 500px;
+    background: #fff;
+    padding: 10px;
+}
+
+/* Imagens da lateral direita */
+#area-lateral-direita img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Limpeza de float */
+.clear {
+    clear: both;
+}
+
+/* Rodapé */
+footer#reservado {
+    text-align: center;
+    background: #3A506B;
+    color: #fff;
+    height: 30px;
+    line-height: 30px;
+}

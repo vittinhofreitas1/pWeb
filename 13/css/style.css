@@ -1,0 +1,199 @@
+header {
+
+    display: flex;
+
+    justify-content: center;
+
+}
+
+
+
+.box {
+
+    background: #b9c941;
+
+    width: 300px;
+
+    height: 140px;
+
+    padding: 10px;
+
+    margin: 10px;
+
+    border-radius: 20px; /* Applies to all corners [cite: 37, 39, 40] */
+
+    text-align: center;
+
+    box-sizing: border-box; /* Includes padding and border in the element's total width and height [cite: 58, 59] */
+
+    -webkit-border-radius: 20px; /* For older WebKit browsers (Chrome, Safari) [cite: 46, 47] */
+
+    -moz-border-radius: 20px;     /* For older Mozilla Firefox browsers [cite: 46, 47] */
+
+}
+
+
+
+h2 {
+
+    text-align: center;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+#exercicio-container {
+
+    display: flex;
+
+    justify-content: space-around;
+
+    align-items: center;
+
+    padding: 20px;
+
+}
+
+
+
+.shape-group {
+
+    position: relative;
+
+    width: 200px;
+
+    height: 200px;
+
+    margin: 20px;
+
+}
+
+
+
+/* Common styles for the individual parts of the shapes */
+
+.half-circle, .quadrant {
+
+    width: 100px;
+
+    height: 100px;
+
+    position: absolute;
+
+}
+
+
+
+/* Colors for the shapes */
+
+.red { background-color: #ff0000; }
+
+.orange { background-color: #ffa500; } /* Adjusted color slightly from fbff00 for true orange */
+
+.green { background-color: #00ff00; }
+
+.purple { background-color: #800080; }
+
+
+
+/* First shape: Four "petals" */
+
+.half-circle.top-left {
+
+    top: 0;
+
+    left: 0;
+
+    border-radius: 90px 90px 5px 90px; /* Adjusted to achieve the petal shape */
+
+}
+
+
+
+.half-circle.top-right {
+
+    top: 0;
+
+    left: 100px;
+
+    border-radius: 90px 90px 90px 5px; /* Adjusted to achieve the petal shape */
+
+}
+
+
+
+.half-circle.bottom-left {
+
+    top: 100px;
+
+    left: 0;
+
+    border-radius: 90px 5px 90px 90px; /* Adjusted to achieve the petal shape */
+
+}
+
+
+
+.half-circle.bottom-right {
+
+    top: 100px;
+
+    left: 100px;
+
+    border-radius: 5px 90px 90px 90px; /* Adjusted to achieve the petal shape */
+
+}
+
+
+
+
+
+/* Second shape: Full circle divided into quadrants */
+
+.quadrant.top-left {
+
+    top: 0;
+
+    left: 0;
+
+    border-radius: 100% 0 0 0; /* Creates the top-left quarter of a circle */
+
+}
+
+
+
+.quadrant.top-right {
+
+    top: 0;
+
+    left: 100px;
+
+    border-radius: 0 100% 0 0; /* Creates the top-right quarter of a circle */
+
+}
+
+
+
+.quadrant.bottom-left {
+
+    top: 100px;
+
+    left: 0;
+
+    border-radius: 0 0 0 100%; /* Creates the bottom-left quarter of a circle */
+
+}
+
+
+
+.quadrant.bottom-right {
+
+    top: 100px;
+
+    left: 100px;
+
+    border-radius: 0 0 100% 0; /* Creates the bottom-right quarter of a circle */
+
+}
